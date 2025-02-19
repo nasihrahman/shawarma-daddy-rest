@@ -194,20 +194,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border: 2px solid #d43031;
 	background-color: #d43031;
 }
-/* Header Section */
-.content {
-	display: flex;
-	align-items: center; /* Aligns items vertically */
-	gap: 20px; /* Adds space between text and logo */
-  }
-  
-  .slogan {
-	flex: 1; /* Allows text to take available space */
-  }
-  
-  .logo img {
-	max-width: 150px; /* Adjust the size of the logo */
-  }
+
+ 
+
   
 .intro {
 	/* display: table; */
@@ -220,10 +209,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-size: cover;
 	-o-background-size: cover;
 	height: 730px;
+	
+	
 }
+
+
 .intro .overlay {
 	background: rgba(0, 0, 0, 0.495);
 	height: 100%;
+	
 	
 }
 /* .intro h1 {
@@ -238,14 +232,17 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 600;
 }
 .intro p {
-	color: #fff;
-	font-size: 24px;
-	font-weight: 400;
+	color: #F9B411;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 40px;
+	font-weight: 900;
 	margin-top: 150px;
 }
 header .intro-text {
-	/* display: flex;
-	justify-content: space-between; */
+	display: flex;
+	justify-content: space-between;
 	padding-top: 200px;
 	padding-bottom: 50px;
 	text-align: right;
