@@ -297,11 +297,7 @@ header .intro-text {
 	display: flex;
 	align-items: center;
 }
-#about h2::after {
-	bottom: 0;
-	margin-left: 0;
-	left: 0;
-}
+
 /* #about .about-text {
 	
 } */
